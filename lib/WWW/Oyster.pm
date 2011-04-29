@@ -14,11 +14,11 @@ WWW::Oyster - Interface to Oyster Account.
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 Readonly my $LOGIN  => 'https://oyster.tfl.gov.uk/oyster/entry.do';
 Readonly my $LOGOUT => 'https://oyster.tfl.gov.uk/oyster/oysterlogout.do';
