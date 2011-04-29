@@ -1,4 +1,7 @@
 Revision history for WWW-Oyster
 
+0.02    Fri Apr 29 06:16:35 2011
+        - Added Readonly module to the pre-requisite list of modules in Build.PL and Makefile.PL.
+
 0.01    Thu Apr 28 16:55:01 2011
         - First version, released.

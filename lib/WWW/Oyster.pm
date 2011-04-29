@@ -14,20 +14,20 @@ WWW::Oyster - Interface to Oyster Account.
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 Readonly my $LOGIN  => 'https://oyster.tfl.gov.uk/oyster/entry.do';
 Readonly my $LOGOUT => 'https://oyster.tfl.gov.uk/oyster/oysterlogout.do';
 
 =head1 DESCRIPTION
 
-The Oyster card is a form of electronic ticketing used on public transport services within the 
-Greater London area of the United Kingdom. It is promoted by Transport for London and is valid 
-on a number of different travel systems across London including London Underground, buses, the 
+The Oyster card is a form of electronic ticketing used on public transport services within the
+Greater London area of the United Kingdom. It is promoted by Transport for London and is valid
+on a number of different travel systems across London including London Underground, buses, the
 Docklands Light Railway(DLR),London Overground, trams,some river boat services & most National
 Rail services within the London Fare Zones.
 
@@ -56,11 +56,11 @@ sub new
 
     croak("ERROR: Missing username.\n") unless defined $username;
     croak("ERROR: Missing password.\n") unless defined $password;
-    
-    my $self = { username => $username, 
-                 password => $password, 
+
+    my $self = { username => $username,
+                 password => $password,
                  browser  => new WWW::Mechanize(autocheck => 1),
-                  };
+               };
     bless $self, $class;
     return $self;
 }
@@ -106,7 +106,7 @@ sub _get_account_balance
             my ($tag, $attr, $attrseq, $rawtxt) = @{$token};
             if (($tag eq 'span') && exists($attr->{class}) && ($attr->{class} eq "content"))
             {
-                until (($ttype eq 'E') && ($tag eq 'span')) 
+                until (($ttype eq 'E') && ($tag eq 'span'))
                 {
                     $token = $stream->get_token;
                     ($ttype, $tag, $attr, $attrseq, $rawtxt) = @{$token};
@@ -123,8 +123,8 @@ Mohammad S Anwar, C<< <mohammad.anwar at yahoo.com> >>
 
 =head1 BUGS
 
-Please report any bugs/feature requests to C<bug-www-oyster at rt.cpan.org> or through the web 
-interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=WWW-Oyster>. I will be notified, 
+Please report any bugs/feature requests to C<bug-www-oyster at rt.cpan.org> or through the web
+interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=WWW-Oyster>. I will be notified,
 and then you'll automatically be notified of progress on your bug as I make changes.
 
 =head1 SUPPORT
