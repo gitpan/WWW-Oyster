@@ -4,10 +4,10 @@ author:
   - 'Mohammad S Anwar <mohammad.anwar@yahoo.com>'
 build_requires:
   Crypt::SSLeay: 0.57
-  HTML::TokeParser: 0
+  HTML::TokeParser: 2.37
   Readonly: 0
   Test::More: 0
-  WWW::Mechanize: 0
+  WWW::Mechanize: 1.60
 configure_requires:
   Module::Build: 0.36
 generated_by: 'Module::Build version 0.3607'
@@ -19,7 +19,7 @@ name: WWW-Oyster
 provides:
   WWW::Oyster:
     file: lib/WWW/Oyster.pm
-    version: 0.03
+    version: 0.04
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.03
+version: 0.04

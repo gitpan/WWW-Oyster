@@ -1,5 +1,9 @@
 Revision history for WWW-Oyster
 
+0.04    Tue May 03 10:13:25 2011
+        - Set the version number for the pre-requisite modules WWW::Mechanize and 
+          HTML::TokeParser in the Build.PL and Makefile.PL.
+
 0.03    Fri Apr 29 17:20:10 2011
         - Added unit test 01-unit-test.t
 

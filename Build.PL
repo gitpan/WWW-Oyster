@@ -12,8 +12,8 @@ my $builder = Module::Build->new(
         'Crypt::SSLeay'    => '0.57',
         'Readonly'         => 0,
         'Test::More'       => 0,
-        'HTML::TokeParser' => 0,
-        'WWW::Mechanize'   => 0,
+        'HTML::TokeParser' => '2.37',
+        'WWW::Mechanize'   => '1.60',
     },
 );
 

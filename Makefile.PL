@@ -12,8 +12,8 @@ WriteMakefile(
         'Crypt::SSLeay'    => '0.57',
         'Readonly'         => 0,
         'Test::More'       => 0,
-        'HTML::TokeParser' => 0,
-        'WWW::Mechanize'   => 0,
+        'HTML::TokeParser' => '2.37',
+        'WWW::Mechanize'   => '1.60',
     },
     ($ExtUtils::MakeMaker::VERSION >= 6.3002
       ? ('LICENSE'=> 'perl')
