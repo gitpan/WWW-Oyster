@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.66.
+signed via the Module::Signature module, version 0.68.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,14 +14,14 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 0abcc13c1616e68092186dc936461a6afffc6d73 Build.PL
-SHA1 f7ea2cdd7cf9bcbaf149d44f44c242896a73e3f3 Changes
+SHA1 8ca595867cfaefd497fd0ebfa70d3fd182dafcef Build.PL
+SHA1 ac034d8cff648911c747968556100307f9b6ed68 Changes
 SHA1 6c6020947fe3dd36443c43e1e6c4786d17104741 MANIFEST
 SHA1 7d20e4e840781030202bb045d5ab81b3fd1b68b0 MANIFEST.SKIP
-SHA1 ee5827de9383e280ed95fecb0cbc84b3f175b6fa META.yml
-SHA1 33de0fc380dc44e603bdc6f950049e2cb51986bf Makefile.PL
+SHA1 c07c157a5b947d4dc3c277a13b0f8efb4a36f834 META.yml
+SHA1 e3451b286d7947692a39f5c6e317214ac81fe3a1 Makefile.PL
 SHA1 205d57f7ae1bb7e54534025b9a8b1d82d3002444 README
-SHA1 a8721f7f300f095ae2ca2f68d1daabf87e9ce5e4 lib/WWW/Oyster.pm
+SHA1 99199392b101f7832d5d3878f47631d8c95c1c0a lib/WWW/Oyster.pm
 SHA1 c8eca2a656ac11eede805eed340f694d2f8d47e7 t/00-load.t
 SHA1 45ec906088ba8af554f7ac3569ebd8bb423ae95c t/01-unit-test.t
 SHA1 2b8ffb7e4f399af95d092743846ac8d438f2c53e t/manifest.t
@@ -29,11 +29,11 @@ SHA1 0765c9ff0cc4319f415bb08d0053b7717a8284a2 t/pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2.0.14 (MingW32)
 
-iQEcBAEBAgAGBQJNv8flAAoJEPYcXBXhRYOhc6wH/2LD/R6iLfPTnyiDOSE0O6h/
-rrVqg5Vd7dcQK2A227fR2pDkFvAMTqF60L7KS0hcbYUmdpGyIxFWc+2pJ7QlHDc7
-gY1U867wGo69fB3VH3aPLngp58429Ohpztk/76eXijo8ZgQ5JBduVgGWoDMs/s/5
-hjbQov3bLwkJs60uKH7HOgHqHEtcLHiUWGNMvyPJNp3eUR7EY+xweK6cdm0I8v06
-t9i3QzX+pKBseFHPy1OZ8rd+14wo8gfVRXkCQCy6GzH2vMF9RewKxVs6qaGV8ghq
-bvY5ZRsHOxsBbZXWxZBgRqPwI1HwdPeXEtrsvjk+Ofd/X+AAaPNgMxNcljNMSHk=
-=mC01
+iQEcBAEBAgAGBQJOP6cMAAoJEPYcXBXhRYOhOxkIAKavqIDFBp3FayFNOJImu/vp
+QGoVrBhm2l+Y2Tp91sYm10cnITIllq7RwfwwHskSDYcIzFKFJnxIAd1AgYw7mw2k
+zayvm5meZokbDBSqnNlFLEe7Cnmqj6NiQD2j4yKamnr8mwoLxVzjWKEjF6ASLBdB
+LktSMcFvMCg3m/GgdNOe60hjKS1JgQXAPq9ZdaW+uPXwDpzUKx5hue+Mk1jaMTwa
+JLU8mm/BEYacTP/C4gR20B1TY3UlHoL/Ac9eaG5Q/+9VtAZ+9iSh/NJ5gz+z28XW
+OZEGo80pCtdyrATMPTdqElyxqov8U4lXDykmE/MsCpF1HV82/xJMt5Fd/QFmmhw=
+=SaCV
 -----END PGP SIGNATURE-----

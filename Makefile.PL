@@ -10,7 +10,7 @@ WriteMakefile(
     clean         => { FILES => 'WWW-Oyster-*' },
     PREREQ_PM     => {
         'Crypt::SSLeay'    => '0.57',
-        'Readonly'         => 0,
+        'Readonly'         => '1.03',
         'Test::More'       => 0,
         'HTML::TokeParser' => '2.37',
         'WWW::Mechanize'   => '1.60',

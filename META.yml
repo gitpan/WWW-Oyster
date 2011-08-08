@@ -5,7 +5,7 @@ author:
 build_requires:
   Crypt::SSLeay: 0.57
   HTML::TokeParser: 2.37
-  Readonly: 0
+  Readonly: 1.03
   Test::More: 0
   WWW::Mechanize: 1.60
 configure_requires:
@@ -19,7 +19,7 @@ name: WWW-Oyster
 provides:
   WWW::Oyster:
     file: lib/WWW/Oyster.pm
-    version: 0.04
+    version: 0.05
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.04
+version: 0.05
